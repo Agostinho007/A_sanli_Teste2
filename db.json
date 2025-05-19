@@ -167,19 +167,6 @@
       "status": "Pendente",
       "userId": "4",
       "createdAt": "2025-05-19T06:05:05.241Z"
-    },
-    {
-      "id": "9",
-      "title": "Web",
-      "type": "Apresentação",
-      "description": "lorem",
-      "deadline": "22/05/2025",
-      "subject": "Programação Movel",
-      "priority": "Média",
-      "estimatedTime": "90 minutos",
-      "status": "Em andamento",
-      "userId": "8",
-      "createdAt": "2025-05-19T06:21:24.494Z"
     }
   ],
   "disciplines": [
@@ -297,6 +284,13 @@
       "to": "Bot",
       "message": "oi",
       "timestamp": "2025-05-19T06:25:42.964Z"
+    },
+    {
+      "id": "2",
+      "from": "Ivan",
+      "to": "Bot",
+      "message": "oi",
+      "timestamp": "2025-05-19T07:11:49.944Z"
     }
   ],
   "botInteractions": {

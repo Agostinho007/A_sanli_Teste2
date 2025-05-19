@@ -870,7 +870,7 @@
                 role: 'admin'
             };
             try {
-                const response = await fetch('/api/admin/admins', {
+                const response = await fetch('/api/admin/register', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -907,13 +907,14 @@
             modal.show();
         }
 
+        //Confirmacao de Delete de Tarefas
         function confirmDelete(id) {
             document.getElementById('confirmMessage').textContent = 'Deseja realmente excluir esta tarefa?';
             const modal = new bootstrap.Modal(document.getElementById('confirmModal'));
             modal.show();
             document.getElementById('confirmAction').onclick = async () => {
                 try {
-                    const response = await fetch(`/api/tasks/${id}`, {
+                    const response = await fetch(`/api/admin/tasks/${id}`, {
                         method: 'DELETE',
                         headers: { 'Authorization': `Bearer ${token}` }
                     });
@@ -933,7 +934,7 @@
                 }
             };
         }
-
+        //confirmar delete de admin
         function confirmDeleteAdmin(id) {
             document.getElementById('confirmMessage').textContent = 'Deseja realmente excluir este administrador?';
             const modal = new bootstrap.Modal(document.getElementById('confirmModal'));
@@ -1024,7 +1025,8 @@
             if (document.getElementById('notifications').classList.contains('d-none')) return;
             loadNotifications();
         });
-
+        
+       //funcao de logout
         function logout() {
             localStorage.removeItem('token');
             localStorage.removeItem('userName');
