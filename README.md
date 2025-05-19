@@ -6,12 +6,12 @@ O Sistema de Tarefas Acadêmicas é uma aplicação web que permite a alunos ger
 ## Tecnologias
 - **Front-end**: HTML5, CSS3 (Bootstrap), JavaScript
 - **Back-end**: Node.js, Express, Socket.IO, JWT
-- **Armazenamento**: JSON (`server/db.json`)
+- **Armazenamento**: JSON (`db.json`)
 
 ## Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Agostinho007/Desenvolvimento_de_Pagina_Web_com_Integracao_de_Tecnologias_Web_Modernas
+   git clone https://github.com/Agostinho007/A_sanli_Teste2
    ```
 2. Navegue até o diretório:
    ```bash
@@ -23,7 +23,6 @@ O Sistema de Tarefas Acadêmicas é uma aplicação web que permite a alunos ger
    ```
 4. Inicie o servidor:
    ```bash
-   cd server
    node app.js
    ```
    Acesse em `http://localhost:3000`.
@@ -47,7 +46,7 @@ O Sistema de Tarefas Acadêmicas é uma aplicação web que permite a alunos ger
 - Comunicação em tempo real via WebSockets.
 
 ## Hospedagem
-A aplicação está hospedada no Render. Acesse em: https://desenvolvimento-de-pagina-web-com-xszk.onrender.com
+A aplicação está hospedada no Render. Acesse em: https://a-sanli-teste2.onrender.com
 
 ## Contribuição
 1. Faça um fork do projeto.
