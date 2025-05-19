@@ -1,0 +1,312 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "name": "Administrador"
+    },
+    {
+      "id": "2",
+      "username": "aluno123",
+      "password": "senha123",
+      "role": "student",
+      "name": "Aluno 123",
+      "matricula": "aluno123"
+    },
+    {
+      "id": "3",
+      "name": "Esmael Chande",
+      "username": "echande",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": "4",
+      "name": "Agostinho Marques",
+      "matricula": "123",
+      "username": "pain",
+      "password": "1234",
+      "role": "student"
+    },
+    {
+      "id": "6",
+      "name": "Ivandro Mendolo",
+      "matricula": "1234",
+      "username": "Ivan",
+      "password": "1234",
+      "role": "student"
+    },
+    {
+      "id": "7",
+      "name": "Anastacia Osmondi",
+      "matricula": "123456",
+      "username": "ana",
+      "password": "1234",
+      "role": "student"
+    },
+    {
+      "id": "8",
+      "name": "Mussaldyne Rhey",
+      "matricula": "123457",
+      "username": "mussa",
+      "password": "1234",
+      "role": "student"
+    },
+    {
+      "id": "8",
+      "name": "Jose Mickey",
+      "matricula": "123459",
+      "username": "mickey",
+      "password": "1234",
+      "role": "student"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "3",
+      "title": "Desenvolvimento Web",
+      "type": "Trabalho individual",
+      "description": "dsds",
+      "deadline": "15/05/2025",
+      "subject": "Programação Web",
+      "priority": "Alta",
+      "estimatedTime": "2 Horas",
+      "status": "Em andamento",
+      "userId": "4",
+      "createdAt": "2025-05-13T08:41:50.224Z"
+    },
+    {
+      "id": "2",
+      "title": "Web",
+      "type": "Trabalho em grupo",
+      "description": "Lorem",
+      "deadline": "15/05/2025",
+      "subject": "Inteligência Artificial",
+      "priority": "Alta",
+      "estimatedTime": "5 Horas",
+      "status": "Pendente",
+      "userId": "4",
+      "createdAt": "2025-05-13T08:44:23.250Z"
+    },
+    {
+      "id": "3",
+      "title": "Dynamic Service",
+      "type": "Apresentação",
+      "description": "Lorem",
+      "deadline": "22/05/2025",
+      "subject": "Programação",
+      "priority": "Média",
+      "estimatedTime": "4 Horas",
+      "status": "Concluída",
+      "userId": "6",
+      "createdAt": "2025-05-13T08:46:27.587Z"
+    },
+    {
+      "id": "4",
+      "title": "Dynamic Service II",
+      "type": "Trabalho individual",
+      "description": "Lorem",
+      "deadline": "2025-05-16",
+      "subject": "Programação Movel",
+      "priority": "Média",
+      "estimatedTime": "4 Horas",
+      "status": "Em andamento",
+      "userId": "4",
+      "createdAt": "2025-05-13T10:05:16.488Z"
+    },
+    {
+      "id": "5",
+      "title": "Web 3.0",
+      "type": "Revisão",
+      "description": "Lorem",
+      "deadline": "20/05/2025",
+      "subject": "Web JSP",
+      "priority": "Média",
+      "estimatedTime": "2 Dia",
+      "status": "Em andamento",
+      "userId": "7",
+      "createdAt": "2025-05-13T12:32:39.713Z"
+    },
+    {
+      "id": "6",
+      "title": "Desenvolvimento Visual",
+      "type": "Trabalho individual",
+      "description": "Lorem",
+      "deadline": "15/05/2025",
+      "subject": "Inteligência Artificial",
+      "priority": "Alta",
+      "estimatedTime": "1 Dia",
+      "status": "Pendente",
+      "userId": "7",
+      "createdAt": "2025-05-13T12:35:32.000Z"
+    },
+    {
+      "id": "7",
+      "title": "Desenvolvimento Web",
+      "type": "Trabalho em grupo",
+      "description": "Lorem",
+      "deadline": "16/05/2025",
+      "subject": "Programação",
+      "priority": "Média",
+      "estimatedTime": "3 Dia",
+      "status": "Concluída",
+      "userId": "8",
+      "createdAt": "2025-05-13T12:38:36.314Z"
+    },
+    {
+      "id": "8",
+      "title": "Web",
+      "type": "Revisão",
+      "description": "Lorem",
+      "deadline": "21/05/2025",
+      "subject": "Web JSP",
+      "priority": "Média",
+      "estimatedTime": "5 Horas",
+      "status": "Pendente",
+      "userId": "4",
+      "createdAt": "2025-05-19T06:05:05.241Z"
+    },
+    {
+      "id": "9",
+      "title": "Web",
+      "type": "Apresentação",
+      "description": "lorem",
+      "deadline": "22/05/2025",
+      "subject": "Programação Movel",
+      "priority": "Média",
+      "estimatedTime": "90 minutos",
+      "status": "Em andamento",
+      "userId": "8",
+      "createdAt": "2025-05-19T06:21:24.494Z"
+    }
+  ],
+  "disciplines": [
+    "Matemática",
+    "Programação Web",
+    "Inteligência Artificial",
+    "História",
+    "Física",
+    "Multimedia",
+    "Seguranca em Redes",
+    "Tecnologias de Internet"
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "message": "Nova tarefa criada: Representacao Digital do Audio  (Multimedia)",
+      "timestamp": "2025-05-12T18:53:32.502Z",
+      "user": "pain"
+    },
+    {
+      "id": "2",
+      "message": "Nova tarefa criada: DSD (Inteligência Artificial)",
+      "timestamp": "2025-05-12T19:03:50.508Z",
+      "user": "Ivan"
+    },
+    {
+      "id": "3",
+      "message": "Tarefa editada por admin: Representacao Digital do Audio  (Multimedia) - Status: Pendente",
+      "timestamp": "2025-05-12T19:46:08.016Z",
+      "user": "echande"
+    },
+    {
+      "id": "4",
+      "message": "Nova tarefa criada: Teste 2 (Seguranca em Redes)",
+      "timestamp": "2025-05-12T21:16:37.342Z",
+      "user": "Ivan"
+    },
+    {
+      "id": "5",
+      "message": "Tarefa atualizada: Teste 2 (Seguranca em Redes) - Status: Em andamento",
+      "timestamp": "2025-05-12T21:17:38.210Z",
+      "user": "Ivan"
+    },
+    {
+      "id": "6",
+      "message": "Tarefa atualizada: Teste 2 (Seguranca em Redes) - Status: Pendente",
+      "timestamp": "2025-05-12T21:17:51.059Z",
+      "user": "Ivan"
+    },
+    {
+      "id": "7",
+      "message": "Nova tarefa criada: dsds (Matemática)",
+      "timestamp": "2025-05-12T21:56:48.542Z",
+      "user": "Ivan"
+    },
+    {
+      "id": "8",
+      "message": "Nova tarefa criada: WebSocket (Tecnologias de Internet)",
+      "timestamp": "2025-05-12T22:35:56.484Z",
+      "user": "pain"
+    },
+    {
+      "id": "9",
+      "userId": "4",
+      "message": "Tarefa \"Web 2.0\" foi excluída pelo administrador",
+      "timestamp": "2025-05-13T11:06:38.452Z"
+    },
+    {
+      "id": "10",
+      "userId": "1",
+      "message": "Tarefa \"Web 2.0\" excluída para aluno Agostinho Marques",
+      "timestamp": "2025-05-13T11:06:38.453Z"
+    },
+    {
+      "id": "11",
+      "userId": "3",
+      "message": "Tarefa \"Web 2.0\" excluída para aluno Agostinho Marques",
+      "timestamp": "2025-05-13T11:06:38.453Z"
+    },
+    {
+      "id": "12",
+      "userId": "6",
+      "message": "Tarefa \"Web 2.0\" excluída para aluno Agostinho Marques",
+      "timestamp": "2025-05-13T11:06:38.453Z"
+    },
+    {
+      "id": "13",
+      "userId": "4",
+      "message": "Tarefa \"Dynamic Service II\" foi editada pelo administrador",
+      "timestamp": "2025-05-13T11:07:38.176Z"
+    },
+    {
+      "id": "14",
+      "userId": "1",
+      "message": "Tarefa \"Dynamic Service II\" editada para aluno Agostinho Marques",
+      "timestamp": "2025-05-13T11:07:38.177Z"
+    },
+    {
+      "id": "15",
+      "userId": "3",
+      "message": "Tarefa \"Dynamic Service II\" editada para aluno Agostinho Marques",
+      "timestamp": "2025-05-13T11:07:38.177Z"
+    },
+    {
+      "id": "16",
+      "userId": "6",
+      "message": "Tarefa \"Dynamic Service II\" editada para aluno Agostinho Marques",
+      "timestamp": "2025-05-13T11:07:38.177Z"
+    }
+  ],
+  "chats": [
+    {
+      "id": "1",
+      "from": "mickey",
+      "to": "Bot",
+      "message": "oi",
+      "timestamp": "2025-05-19T06:25:42.964Z"
+    }
+  ],
+  "botInteractions": {
+    "2": {
+      "count": 0,
+      "lastInteraction": null
+    },
+    "3": {
+      "count": 0,
+      "lastInteraction": null
+    }
+  }
+}
